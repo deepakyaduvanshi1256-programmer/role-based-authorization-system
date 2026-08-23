@@ -1,0 +1,472 @@
+#login {
+    min-height: 500px;
+    width: 1200px;
+    background-image: url("loginf.jpg");
+    background-size: 100% 100%;
+    backdrop-filter: blur(3px);
+}
+
+#l {
+    height: 450px;
+    width: 300px;
+    background: rgba(119, 225, 255, .3);
+    border: 3px solid white;
+    border-radius: 15px;
+    margin-left: 450px;
+    padding-left: 15px;
+    color: white;
+}
+
+#lf {
+    width: 1200px;
+    height: 40px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loginf {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    background: transparent;
+    width: 80%;
+    color: white;
+    box-sizing: border-box;
+    transition: all 1s ease-in;
+}
+
+.loginf:not(.filled):hover {
+    transform: translateX(25px);
+    transition: all .5s ease-in;
+}
+
+
+.loginbtn {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 25px;
+    font-size: 20px;
+    background: transparent;
+    width: 80%;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+/* .loginbtn:hover {
+    transform: translateX(25px);
+    transition: all .5s ease-in;
+} */
+
+.loginbtn:not(.filled):hover {
+    transform: translateX(25px);
+    transition: all .5s ease-in;
+}
+
+
+
+
+
+/* =========================
+   Admin Dashboard
+========================= */
+
+.admin-dashboard {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.admin-dashboard h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: #1f2937;
+}
+
+.admin-dashboard > p {
+  margin: 0 0 25px;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* =========================
+   Table Wrapper
+========================= */
+
+.admin-dashboard {
+  overflow-x: auto;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  min-width: 750px;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Table Header */
+
+.admin-dashboard thead {
+  background: #2563eb;
+  color: white;
+}
+
+.admin-dashboard th {
+  padding: 15px 18px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Table Body */
+
+.admin-dashboard td {
+  padding: 15px 18px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  font-size: 14px;
+}
+
+.admin-dashboard tbody tr {
+  transition: background 0.2s ease;
+}
+
+.admin-dashboard tbody tr:hover {
+  background: #f8fafc;
+}
+
+.admin-dashboard tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* =========================
+   Status
+========================= */
+
+.admin-dashboard td span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Admin */
+
+.admin-dashboard td span:has(+ *) {
+  background: #ede9fe;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.admin-dashboard button {
+  border: none;
+  padding: 8px 14px;
+  margin: 3px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* Allow */
+
+.admin-dashboard button:first-child {
+  background: #16a34a;
+  color: white;
+}
+
+.admin-dashboard button:first-child:hover {
+  background: #15803d;
+  transform: translateY(-1px);
+}
+
+/* Delete */
+
+.admin-dashboard button:last-child {
+  background: #dc2626;
+  color: white;
+}
+
+.admin-dashboard button:last-child:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Loading
+========================= */
+
+.admin-dashboard + h2,
+h2 {
+  text-align: center;
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 25px 15px;
+  }
+
+  .admin-dashboard h1 {
+    font-size: 26px;
+  }
+
+  .admin-dashboard > p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .admin-dashboard th,
+  .admin-dashboard td {
+    padding: 12px 14px;
+  }
+
+  .admin-dashboard button {
+    padding: 7px 11px;
+    font-size: 12px;
+  }
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 480px) {
+  .admin-dashboard {
+    padding: 20px 10px;
+  }
+
+  .admin-dashboard h1 {
+    font-size: 23px;
+  }
+
+  .admin-dashboard > p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .admin-dashboard table {
+    min-width: 680px;
+  }
+
+  .admin-dashboard th {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+
+  .admin-dashboard td {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+
+  .admin-dashboard button {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+}
+/* =========================
+   User Dashboard
+========================= */
+
+.user-dashboard {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+
+.user-dashboard h1 {
+  margin: 0 0 25px;
+  color: #1f2937;
+  font-size: 32px;
+  text-align: center;
+}
+
+.user-dashboard h2 {
+  margin: 0 0 20px;
+  color: #374151;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* User Information */
+
+.user-dashboard > p {
+  margin: 10px 0;
+  padding: 12px 15px;
+  background: #f8fafc;
+  border-radius: 8px;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+/* =========================
+   Access Section
+========================= */
+
+.user-dashboard h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.user-dashboard h3 + p {
+  margin: 0 0 18px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* Allowed */
+
+.user-dashboard h3 {
+  color: #15803d;
+}
+
+/* Access Feature Button */
+
+.user-dashboard button {
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* First button = Access Feature */
+
+.user-dashboard button:not([onClick]) {
+  background: #2563eb;
+  color: white;
+}
+
+.user-dashboard button:not([onClick]):hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Access Allowed / Denied
+========================= */
+
+/*
+  Better visual separation ke liye
+  access section ko target karne ke liye
+  div styling
+*/
+
+.user-dashboard > div:not(.something) {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+/* =========================
+   Logout Button
+========================= */
+
+.user-dashboard > button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  background: #dc2626;
+  color: white;
+}
+
+.user-dashboard > button:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 768px) {
+  .user-dashboard {
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 28px;
+  }
+
+  .user-dashboard h1 {
+    font-size: 28px;
+  }
+
+  .user-dashboard h2 {
+    font-size: 20px;
+  }
+
+  .user-dashboard > p {
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 480px) {
+  .user-dashboard {
+    max-width: calc(100% - 20px);
+    margin: 20px auto;
+    padding: 22px 16px;
+    border-radius: 12px;
+  }
+
+  .user-dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .user-dashboard h2 {
+    font-size: 18px;
+  }
+
+  .user-dashboard > p {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .user-dashboard h3 {
+    font-size: 18px;
+  }
+
+  .user-dashboard h3 + p {
+    font-size: 13px;
+  }
+
+  .user-dashboard button {
+    width: 100%;
+    padding: 11px 15px;
+    font-size: 13px;
+  }
+}
