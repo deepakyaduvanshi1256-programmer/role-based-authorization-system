@@ -136,3 +136,28 @@ npm run dev
 ### Environment Setup
 
 Create a .env file inside Role-Auth-Bakend and add your MongoDB URI, JWT secret, and port configuration.
+
+## Backend Documentation
+
+The backend provides REST APIs for authentication and user management.
+
+### Backend Responsibilities
+
+- User registration and login
+- JWT token generation
+- Authentication middleware
+- Role-based access control
+- User management
+- Admin authorization
+- MongoDB database operations
+
+### Backend Environment Variables
+
+The backend uses the following environment variables:
+
+- PORT
+- MONGO_URI
+- JWT_SECRET
+- JWT_EXPIRE
+
+Use Role-Auth-Bakend/.env.example as a reference when creating the local .env file.
