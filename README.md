@@ -68,3 +68,15 @@ Role-Auth-Project/
 - components/
 - pages/
 - services/
+
+## Features
+
+- User Registration and Login
+- JWT Authentication
+- Role Based Authorization
+- Admin Dashboard
+- User Dashboard
+- Allow and Block Users
+- Delete User
+- Password Hashing
+- MongoDB Integration
