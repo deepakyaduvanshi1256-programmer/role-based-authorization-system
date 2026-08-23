@@ -271,3 +271,20 @@ Protected API endpoints require a valid JWT authentication token.
 Authentication confirms the identity of the user, while authorization determines whether the user has permission to perform a specific action.
 
 Admin-only operations are protected using role-based middleware.
+
+## Error Handling
+
+The application handles common authentication, authorization, validation, and database errors.
+
+### Common Error Scenarios
+
+- Invalid login credentials
+- Missing authentication token
+- Invalid or expired JWT token
+- Unauthorized role access
+- User not found
+- Duplicate user information
+- Invalid request data
+- Database connection errors
+
+The API returns appropriate HTTP status codes and error messages so the frontend can provide meaningful feedback to users.
