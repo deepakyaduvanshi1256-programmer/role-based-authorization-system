@@ -15,6 +15,7 @@ Role-Auth-Frontend/node_modules/
 # Environment variables
 .env
 .env.*
+!.env.example
 Role-Auth-Bakend/.env
 Role-Auth-Frontend/.env
 
