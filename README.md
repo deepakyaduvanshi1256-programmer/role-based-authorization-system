@@ -422,3 +422,29 @@ Before pushing changes to the repository, verify that both the backend and front
 - Verify MongoDB connection works correctly.
 
 Automated testing can be added in future improvements.
+
+## Deployment Notes
+
+Before deploying the application to a production environment, review the following configuration.
+
+### Backend
+
+- Configure production MongoDB credentials through environment variables.
+- Use a strong and private JWT secret.
+- Set the appropriate production port.
+- Do not expose the .env file.
+- Install dependencies using 
+pm install.
+- Start the backend using the appropriate production command.
+
+### Frontend
+
+- Configure the backend API URL for the production environment.
+- Install dependencies using 
+pm install.
+- Create a production build using the project's Vite configuration.
+- Deploy the generated build files using a suitable hosting service.
+
+### Production Security
+
+Never publish database credentials, JWT secrets, API keys, or other private configuration values in the source repository.
