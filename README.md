@@ -454,3 +454,11 @@ Never publish database credentials, JWT secrets, API keys, or other private conf
 This project was developed as a full-stack learning project to demonstrate authentication, authorization, REST API development, database integration, and modern React application development.
 
 The project uses open-source technologies and libraries including React, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, Axios, Vite, and other supporting packages.
+
+## Project Summary
+
+Role Based Authorization System is a full-stack web application that demonstrates secure user authentication and role-based access control.
+
+The project combines a React frontend with a Node.js and Express.js backend, using MongoDB for data persistence and JWT for authentication.
+
+The application provides separate experiences for users and administrators while following a structured and maintainable project architecture.
