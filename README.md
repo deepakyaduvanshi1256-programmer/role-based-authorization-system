@@ -33,3 +33,9 @@ A full-stack Role Based Authorization System built using React, Node.js, Express
 - Mongoose
 - JWT
 - bcrypt
+
+---
+
+**Designed & Developed by Er. Deepak Yadav (IT)**
+
+Designed & Developed by Er. Deepak Yadav (IT)
