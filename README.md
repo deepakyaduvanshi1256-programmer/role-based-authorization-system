@@ -188,3 +188,19 @@ The frontend contains reusable components, pages, authentication forms, and API 
 - src/Login.jsx - Login page
 - src/Register.jsx - Registration page
 - src/App.jsx - Main application component
+
+## Security
+
+This project follows common security practices for authentication and authorization.
+
+### Security Measures
+
+- Passwords are hashed using bcrypt before storing them.
+- JWT tokens are used for authenticated requests.
+- Protected routes require valid authentication.
+- Role-based middleware restricts admin-only operations.
+- Environment variables are used for sensitive configuration.
+- Database credentials and JWT secrets are excluded from Git.
+- .env files are ignored using .gitignore.
+
+> Never commit real MongoDB credentials, JWT secrets, API keys, or other sensitive information to the repository.
