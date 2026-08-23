@@ -310,3 +310,19 @@ The MongoDB connection string is configured through the MONGO_URI environment va
 For local development, create the .env file inside Role-Auth-Bakend and configure the required database connection string.
 
 Never commit the real MongoDB connection string to GitHub.
+
+## Contribution
+
+Contributions and suggestions are welcome.
+
+### How to Contribute
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make the required changes.
+4. Test the project locally.
+5. Commit your changes with a meaningful message.
+6. Push the branch to your GitHub repository.
+7. Open a Pull Request.
+
+Please make sure that sensitive information such as .env files, database credentials, and JWT secrets is not included in contributions.
