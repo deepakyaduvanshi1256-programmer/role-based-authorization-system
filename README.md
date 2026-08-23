@@ -204,3 +204,24 @@ This project follows common security practices for authentication and authorizat
 - .env files are ignored using .gitignore.
 
 > Never commit real MongoDB credentials, JWT secrets, API keys, or other sensitive information to the repository.
+
+## Development Guidelines
+
+When contributing to this project, follow these basic guidelines:
+
+- Keep frontend and backend responsibilities separated.
+- Use meaningful names for files, functions, variables, and components.
+- Keep authentication and authorization logic inside the appropriate middleware.
+- Do not commit sensitive environment variables.
+- Test changes locally before pushing them to GitHub.
+- Keep dependencies updated when required.
+- Write clear and descriptive commit messages.
+- Avoid unnecessary changes to unrelated files.
+
+### Git Workflow
+
+1. Create or modify the required files.
+2. Check the changes using git status.
+3. Review changes before committing.
+4. Create a meaningful commit.
+5. Push the commit to the remote repository.
