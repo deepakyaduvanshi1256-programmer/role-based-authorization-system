@@ -225,3 +225,30 @@ When contributing to this project, follow these basic guidelines:
 3. Review changes before committing.
 4. Create a meaningful commit.
 5. Push the commit to the remote repository.
+
+## Project Status
+
+The project currently includes the core authentication and role-based authorization functionality.
+
+### Completed
+
+- User registration
+- User login
+- JWT authentication
+- Role-based authorization
+- Admin dashboard
+- User dashboard
+- User management
+- MongoDB integration
+- Protected API routes
+- Project documentation
+- Environment configuration examples
+
+### Future Improvements
+
+- Add automated tests
+- Improve UI/UX
+- Add refresh token support
+- Add pagination for user management
+- Add API documentation with Swagger
+- Add deployment configuration
