@@ -336,3 +336,32 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 ### Deepak Yadav
 
 This project was created as a full-stack role-based authorization system using modern web development technologies.
+
+## Troubleshooting
+
+### Backend does not start
+
+- Make sure dependencies are installed using 
+pm install.
+- Check that the .env file exists inside Role-Auth-Bakend.
+- Verify that the configured MongoDB connection string is valid.
+- Make sure the configured port is available.
+
+### Frontend does not start
+
+- Make sure dependencies are installed using 
+pm install.
+- Check that the frontend development server is running.
+- Verify that the backend API is available.
+
+### Authentication problems
+
+- Check that the login credentials are correct.
+- Make sure the JWT secret is configured correctly.
+- Verify that protected requests include the required authentication token.
+
+### Database problems
+
+- Verify the MongoDB connection string.
+- Check that the MongoDB service or cluster is available.
+- Review the backend terminal for database connection errors.
