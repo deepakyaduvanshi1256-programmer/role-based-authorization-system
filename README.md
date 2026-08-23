@@ -252,3 +252,22 @@ The project currently includes the core authentication and role-based authorizat
 - Add pagination for user management
 - Add API documentation with Swagger
 - Add deployment configuration
+
+## API Authentication
+
+Protected API endpoints require a valid JWT authentication token.
+
+### Authentication Flow
+
+1. Register a new user.
+2. Login using the registered credentials.
+3. The backend generates a JWT token.
+4. Store the token on the client side according to the application's authentication strategy.
+5. Include the token when accessing protected endpoints.
+6. The backend verifies the token before allowing access.
+
+### Authorization
+
+Authentication confirms the identity of the user, while authorization determines whether the user has permission to perform a specific action.
+
+Admin-only operations are protected using role-based middleware.
