@@ -404,3 +404,21 @@ The API uses standard HTTP status codes to communicate the result of each reques
 - 500 Internal Server Error - An unexpected server-side error occurred.
 
 Using standard status codes makes it easier for the frontend and API clients to handle responses consistently.
+
+## Testing
+
+Before pushing changes to the repository, verify that both the backend and frontend can run correctly.
+
+### Manual Testing Checklist
+
+- Verify user registration.
+- Verify user login.
+- Verify authentication with a valid JWT token.
+- Verify protected routes reject unauthenticated requests.
+- Verify admin-only routes reject unauthorized users.
+- Verify admin can manage users.
+- Verify user dashboard loads correctly.
+- Verify API requests return appropriate status codes.
+- Verify MongoDB connection works correctly.
+
+Automated testing can be added in future improvements.
