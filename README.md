@@ -288,3 +288,25 @@ The application handles common authentication, authorization, validation, and da
 - Database connection errors
 
 The API returns appropriate HTTP status codes and error messages so the frontend can provide meaningful feedback to users.
+
+## Database
+
+The backend uses MongoDB as the primary database and Mongoose for object data modeling.
+
+### Database Responsibilities
+
+- Store registered users
+- Store user roles
+- Store account status information
+- Retrieve user information
+- Update user information
+- Delete users
+- Support authentication-related operations
+
+### MongoDB Configuration
+
+The MongoDB connection string is configured through the MONGO_URI environment variable.
+
+For local development, create the .env file inside Role-Auth-Bakend and configure the required database connection string.
+
+Never commit the real MongoDB connection string to GitHub.
