@@ -96,3 +96,25 @@ Role-Auth-Project/
 - PATCH /api/users/:id/allow
 - PATCH /api/users/:id/block
 - GET /api/users/profile
+
+## Tech Stack
+
+### Frontend
+- React.js
+- Axios
+- React Hook Form
+- Yup
+- SweetAlert2
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcrypt
+
+### Tools
+- Git
+- GitHub
+- Vite
