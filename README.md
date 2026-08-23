@@ -118,3 +118,21 @@ Role-Auth-Project/
 - Git
 - GitHub
 - Vite
+
+## Installation and Setup
+
+### Backend
+
+cd Role-Auth-Bakend
+npm install
+npm run dev
+
+### Frontend
+
+cd Role-Auth-Frontend
+npm install
+npm run dev
+
+### Environment Setup
+
+Create a .env file inside Role-Auth-Bakend and add your MongoDB URI, JWT secret, and port configuration.
