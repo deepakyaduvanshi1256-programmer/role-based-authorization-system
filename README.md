@@ -326,3 +326,13 @@ Contributions and suggestions are welcome.
 7. Open a Pull Request.
 
 Please make sure that sensitive information such as .env files, database credentials, and JWT secrets is not included in contributions.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Author
+
+### Deepak Yadav
+
+This project was created as a full-stack role-based authorization system using modern web development technologies.
