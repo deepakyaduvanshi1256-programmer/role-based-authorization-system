@@ -161,3 +161,30 @@ The backend uses the following environment variables:
 - JWT_EXPIRE
 
 Use Role-Auth-Bakend/.env.example as a reference when creating the local .env file.
+
+## Frontend Documentation
+
+The frontend provides the user interface for authentication and role-based access.
+
+### Frontend Responsibilities
+
+- User registration interface
+- User login interface
+- JWT-based authentication handling
+- Admin dashboard
+- User dashboard
+- User management interface
+- API communication using Axios
+- Form validation
+- Success and error notifications
+
+### Frontend Structure
+
+The frontend contains reusable components, pages, authentication forms, and API services.
+
+- src/components/ - Reusable UI components
+- src/pages/ - Dashboard pages
+- src/services/ - API communication
+- src/Login.jsx - Login page
+- src/Register.jsx - Registration page
+- src/App.jsx - Main application component
