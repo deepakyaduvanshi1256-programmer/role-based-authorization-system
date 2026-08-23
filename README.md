@@ -48,3 +48,23 @@ npm run dev
 cd Role-Auth-Frontend
 npm install
 npm run dev
+
+## Project Structure
+
+Role-Auth-Project/
+- Role-Auth-Bakend/
+- Role-Auth-Frontend/
+
+### Backend
+- config/
+- controllers/
+- middleware/
+- models/
+- routes/
+- utils/
+
+### Frontend
+- src/
+- components/
+- pages/
+- services/
