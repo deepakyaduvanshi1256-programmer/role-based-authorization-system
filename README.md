@@ -448,3 +448,9 @@ pm install.
 ### Production Security
 
 Never publish database credentials, JWT secrets, API keys, or other private configuration values in the source repository.
+
+## Acknowledgements
+
+This project was developed as a full-stack learning project to demonstrate authentication, authorization, REST API development, database integration, and modern React application development.
+
+The project uses open-source technologies and libraries including React, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, Axios, Vite, and other supporting packages.
