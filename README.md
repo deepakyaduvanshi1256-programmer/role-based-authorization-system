@@ -80,3 +80,19 @@ Role-Auth-Project/
 - Delete User
 - Password Hashing
 - MongoDB Integration
+
+## API Overview
+
+### Authentication
+- POST /api/auth/register
+- POST /api/auth/login
+
+### Users
+- GET /api/users
+- GET /api/users/:id
+- POST /api/users
+- PUT /api/users/:id
+- DELETE /api/users/:id
+- PATCH /api/users/:id/allow
+- PATCH /api/users/:id/block
+- GET /api/users/profile
