@@ -365,3 +365,26 @@ pm install.
 - Verify the MongoDB connection string.
 - Check that the MongoDB service or cluster is available.
 - Review the backend terminal for database connection errors.
+
+## Folder Structure Details
+
+### Backend Folders
+
+- config/ - Database and application configuration
+- controllers/ - Request handling and business logic
+- middleware/ - Authentication and authorization middleware
+- models/ - MongoDB data models
+- outes/ - API route definitions
+- utils/ - Reusable backend utility functions
+
+### Frontend Folders
+
+- src/components/ - Reusable React components
+- src/pages/ - Application pages and dashboards
+- src/services/ - API service and Axios configuration
+- src/Login.jsx - Login interface
+- src/Register.jsx - Registration interface
+- src/App.jsx - Main React application
+- src/main.jsx - Frontend entry point
+
+Keeping related functionality in separate folders makes the project easier to maintain and extend.
