@@ -22,7 +22,10 @@ app.use(express.json());
 
 // Home Route
 app.get("/", (req, res) => {
-  res.send("Role Based Authorization API Running...");
+  res.json({
+    success: true,
+    message: "Role Based Authorization API Running...",
+  });
 });
 
 // Auth Routes
