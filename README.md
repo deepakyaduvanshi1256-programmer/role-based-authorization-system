@@ -388,3 +388,19 @@ pm install.
 - src/main.jsx - Frontend entry point
 
 Keeping related functionality in separate folders makes the project easier to maintain and extend.
+
+## API Response and Status Codes
+
+The API uses standard HTTP status codes to communicate the result of each request.
+
+### Common Status Codes
+
+- 200 OK - Request completed successfully.
+- 201 Created - A new resource was created successfully.
+- 400 Bad Request - The request contains invalid or missing data.
+- 401 Unauthorized - Authentication is required or the provided credentials are invalid.
+- 403 Forbidden - The authenticated user does not have permission to perform the requested action.
+- 404 Not Found - The requested resource could not be found.
+- 500 Internal Server Error - An unexpected server-side error occurred.
+
+Using standard status codes makes it easier for the frontend and API clients to handle responses consistently.
