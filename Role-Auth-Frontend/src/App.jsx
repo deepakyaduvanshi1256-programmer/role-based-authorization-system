@@ -50,33 +50,3 @@ export default App;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from "react";
-// import Login from "./Login.jsx";
-// import Register from "./Register.jsx";
-
-// function App() {
-//   const [showRegister, setShowRegister] = useState(false);
-
-//   return (
-//     <>
-//       {showRegister ? (
-//         <Register onLogin={() => setShowRegister(false)} />
-//       ) : (
-//         <Login onSignup={() => setShowRegister(true)} />
-//       )}
-//     </>
-//   );
-// }
-
-// export default App;
