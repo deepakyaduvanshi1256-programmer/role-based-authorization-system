@@ -72,7 +72,6 @@ function Register({ onLogin }) {
             });
 
         }
-
     };
 
     const {
