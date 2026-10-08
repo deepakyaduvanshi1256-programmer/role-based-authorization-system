@@ -7,7 +7,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 
-// Load Environment Variables
+// Load Environment 
 dotenv.config();
 
 // Connect Database
